@@ -25,7 +25,7 @@ while True:
         # Send the character to the device
         # (Note: I've added a carriage return and line feed to the characters as requested by my device)
     
-    user_input = "Aloo"
+    user_input = 'Aloo'
     ser.write(user_input + '\r\n')
 
     # Wait for the device to respond
