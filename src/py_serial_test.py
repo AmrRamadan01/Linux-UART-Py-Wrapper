@@ -3,7 +3,7 @@ import serial
 
 # Configure the serial connection (parameters may differ based on your device)
 ser = serial.Serial(
-    port='/dev/ttyS0',  # Specify the serial port (e.g., '/dev/ttyUSB1')
+    port='/dev/ttyAMA0',  # Specify the serial port (e.g., '/dev/ttyUSB1')
     baudrate=15200,        # Set the baud rate
     parity=serial.PARITY_ODD,
     stopbits=serial.STOPBITS_TWO,
